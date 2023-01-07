@@ -1,0 +1,10 @@
+>> Issue: Storing password as base64
+OWASP: A3 2017-Sensitive Data Exposure
+Severity: Med
+   Location: SampleCode/create_user.py:22
+21      self.email = email
+22      self.password = base64.b64encode(password.encode('utf-8')).decode("utf-8")
+23      self.startupcmd = "./startup.sh {}".format('username')
+
+Recommendation: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html	
+--------------------------------------------------
