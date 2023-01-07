@@ -5,3 +5,4 @@ You have been hired by a startup company, USociety, who has received reports fro
 You will need to review some static code to help identify and prioritize all vulnerabilities and help create recommendations on how best to mitigate these vulnerabilities. You will also need to manually test the vulnerable web application to find all vulnerabilities and create a writeup documentation to help the development team patch the code. The writeup documentation clearly outlines the steps needed to reproduce the security issue and best practices to help the development team better understand the issue.
 
 ## Below is a video walk through for each security item that have been found that reproduces the vulnerability and a high level verbal description of the issue.
+[![Vuln](https://img.youtube.com/vi/Xia-sTk4TbY/0.jpg)](https://youtu.be/Xia-sTk4TbY)
